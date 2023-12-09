@@ -1,0 +1,92 @@
+.container{
+    background-color: black;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 20px;
+    margin-left: 595px;
+    margin-top: 90px;
+    box-shadow: 0px 0px 60px black;
+}
+
+label{
+    color: indigo;
+    position: absolute;
+    margin: -35px 0px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+input{
+    margin-left: 12px;
+    margin-top: 15px;
+    width: 270px;
+    height: 80px;
+    text-align: end;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: default;
+    outline: none;
+}
+
+.bt1, .bt2, .bt3{
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.bt1{
+    background-color: #A5A5A5;
+    color: black;
+}
+
+.bt2{
+    background-color: #FF9F0A;
+    color: white;
+}
+
+.bt3{
+    background-color: #333333;
+    color: white;
+}
+
+.buttons{
+    width: 302px;
+    padding-bottom: 10px;
+}
+
+.bt4 , .bt5{
+    height: 60px;
+    width: 135px;
+    margin-left: 10px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.bt6{
+    border-radius: 50%;
+    border: none;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #A5A5A5;
+    color: black;
+    width: 60px;
+    font-size: 37px;
+    padding: 1px 0px 15px 0px;
+}
+
+
+button:hover{
+    box-shadow:  0px 0px 7px white;
+    cursor: pointer;
+}

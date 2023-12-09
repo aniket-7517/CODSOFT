@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    
+    <div class="container">
+        <label for="calculator">Calculator</label>
+        <div class="display">
+            <input type="text" name="number" id="result">
+        </div>
+        <div class="buttons">
+            <div class="line1"> 
+                <button class="bt1" onclick="AC()">AC</button>
+                <button class="bt1" onclick="Del()">DEL</button>
+                <button class="bt6" onclick="enter('.')">.</button>
+                <button class="bt2" onclick="enter('/')">/</button>
+            </div>
+
+            <div class="line2">
+                <button class="bt3" onclick="enter('7')">7</button>
+                <button class="bt3" onclick="enter('8')">8</button>
+                <button class="bt3" onclick="enter('9')">9</button>
+                <button class="bt2" onclick="enter('*')">*</button>
+            </div>
+
+            <div class="line3">
+                <button class="bt3" onclick="enter('4')">4</button>
+                <button class="bt3" onclick="enter('5')">5</button>
+                <button class="bt3" onclick="enter('6')">6</button>
+                <button class="bt2" onclick="enter('-')">-</button>
+            </div>
+
+            <div class="line4">
+                <button class="bt3" value="1" onclick="enter('1')">1</button>
+                <button class="bt3" onclick="enter('2')">2</button>
+                <button class="bt3" onclick="enter('3')">3</button>
+                <button class="bt2" onclick="enter('+')">+</button>
+            </div>
+
+            <div class="line5">
+                <button class="bt4" onclick="enter('0')">0</button>                
+                <button class="bt5" onclick="Solve()">=</button>
+            </div>
+
+        </div>
+    </div>
+<script src="./cal.js"></script>
+<script type="module" src="./cal.js"></script>
+
+</body>
+</html>

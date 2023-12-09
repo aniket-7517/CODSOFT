@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-image: url('../Assets/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 786px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 0%;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.color{
+    color: #ffbd39;
+    border-bottom-style: double;
+}
+
+.about-me{
+    background: rgba(-10, 0, -5, 0.8);
+    width: 1300px;
+    height: 610px;
+    position: absolute;
+    margin: 10px 0px 0px 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me img{
+    height: -webkit-fill-available;
+}
+
+.detail{
+    display: flex;
+}
+.details{
+    margin-left: 30px;
+}
+
+.my-info{
+    color: white;
+    margin: 150px;
+}
+
+.my-info h1{
+    margin: 0%;
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: "Poppins", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.my-info h3{
+    margin: 0px 0px -55px 42px;
+    font-size: 38px;
+}
+
