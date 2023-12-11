@@ -1,0 +1,282 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: -webkit-fill-available;
+    background-color: white;
+    padding-right: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    margin: 0%;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+    display: inline-block;
+    position: relative;
+}
+  
+.navbar a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.navbar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.logo{
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.navbar button{
+    background-color: darkslategray;
+    color: white;
+    padding: 5px 15px;
+}
+
+hr{
+    margin-top: 0px;
+}
+
+.headerImg{
+    height: 621px;
+    width: 100%;
+    text-align: center;
+    padding-top: 155px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;
+    background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(54, 54, 54, 0.8)), url("../Images/HeaderImg.jpeg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headerImg .img1{
+    width: 350px;
+    margin: 98px 565px;
+    background-color: rgb(213, 213, 213);
+    padding:5px 30px;
+}
+
+.gym-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 133px;
+    gap: 50px;
+}
+
+#images h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.gym-images img{
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.Price h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.box ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.packages{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px;
+}
+
+.box{
+    text-align: center;
+    padding: 0px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.box ul li{
+    margin: 12px 2px;
+ }
+
+.box button{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+} 
+
+.Price{
+    margin-top: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+}
+
+.contact{
+    margin-top: 50px;
+    border-bottom: 1px solid;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    gap: 50px;
+}
+
+.form{
+    border: 1px solid;
+    width: max-content;
+    padding: 20px 90px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+#name {
+    width: 300px;
+    padding: 8px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+#email {
+    width: 300px;
+    padding: 8px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+
+.contact-detail{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 80px 50px 80px;
+}
+
+#membership{
+    width: 647px;
+    padding: 8px 0px;
+    margin-top: 15px;
+    margin-bottom: 0%;
+}
+
+.form h4 {
+    margin-bottom: 0;
+}
+
+.form button{
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.footer{
+    height: 40px;
+    background-color: black;
+    width: 100%;
+}
+
+.footer p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 0px;
+}
+
+.social{
+    width: -webkit-fill-available;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.mail, .address, .phone, .share{
+    color: black;
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.address-info{
+    padding-top: 100px;
+}
+
+.share ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.share li{
+    margin-right: 10px;
+    
+}
+
+.fa-solid{
+    color: #ffbd39;
+    font-size: 30px;
+    padding: 14px 24px;
+}
+
+.social label{
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 17px;
+}
+
+.social p{
+    margin-left: 30px;
+    margin-top: 38px;
+}

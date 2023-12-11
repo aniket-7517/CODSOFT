@@ -1,0 +1,12 @@
+.Price {
+    height: 673px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    background: #c9a7a7;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(100, 100, 100, 0.8));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
